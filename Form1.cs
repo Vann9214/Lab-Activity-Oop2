@@ -96,7 +96,7 @@ namespace Lab_Activity_Oop2
             { education = School8.Text; }
             else if (School9.Checked)
             { education = School9.Text; }
-
+            // new comment
             MessageBox.Show($"Gender : {gender} \nAge : {age}\nMarital Status : {status}\nIncome Range : {income}\nEmployment Status : {job}\nLevel of Education : {education}");
         }
 
